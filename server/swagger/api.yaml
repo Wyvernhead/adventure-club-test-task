@@ -1,0 +1,23 @@
+openapi: 3.0.0
+
+info:
+    title: Adventure club test
+    version: 1.0.0
+    description: Adventure club test
+
+servers:
+    -   url: http://api.adventure-club.local
+        description: Local API server
+
+paths:
+
+components:
+    securitySchemes:
+    parameters:
+    requestBodies:
+    schemas:
+    responses:
+
+tags:
+    -   name: Trip
+        description: Everything about trips count
